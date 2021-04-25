@@ -33,7 +33,7 @@ To disable the Green LED always use this template instead :
 The Green LED is very bright on these devices as an option controlling it with the LEDLinki will allow the LED to flash during WiFi
 connection and the go OFF once connected. This also maintains the flash indication of button pushed.
 ```json
-{""NAME"":""Ener-J 2-Gang "",""GPIO"":[17,0,0,0,0,22,18,0,21,158,0,0,0],""FLAG"":0,""BASE"":18}
+{"NAME":"Ener-J 2-Gang ","GPIO":[17,0,0,0,0,21,18,0,22,0,0,0,0],"FLAG":0,BASE:18}
 ```
 When flashing these devices via the serial interface, there are a number of pads on the reverse on the PCB for easy connection. GPIO0 
 is available on a pad, but is also connected to S1. Caution when using the power pad marked +5V, it is okay to apply +5V on the pad but 
